@@ -1,0 +1,14 @@
+# FTP Settings
+ftp.host=192.168.10.76
+ftp.user=arclapftp
+ftp.password=StrongPass!234
+ftp.folder=/photos/arclap
+
+# Local folder on Pi
+local_photos_folder=/home/pi/arclap_photos
+
+# Capture schedule
+capture_interval_minutes=5
+capture_start_hour=7
+capture_end_hour=18
+capture_days=1-5   # 1=Monday, 5=Friday
